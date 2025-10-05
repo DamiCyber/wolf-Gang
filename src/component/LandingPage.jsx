@@ -237,8 +237,34 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="shop">
-
+                <div id="shop" className="shop px-6 py-16">
+                    <div className="mx-auto max-w-[1200px] grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                        <div className="shop-text">
+                            <span className="uppercase tracking-widest text-sm text-[var(--wg-moon-gray)]">wolf swag</span>
+                            <h3 className="mt-2 text-3xl md:text-4xl font-bold">Wolf Gang Shop</h3>
+                            <p className="mt-4 text-white/80">So quality it lasts longer than a tweet. Soft fabrics, bold prints, zero corporate vibes — your merch, your culture.</p>
+                            <div className="mt-6 flex items-center gap-3">
+                                <a href="#shop" className="px-5 py-3 rounded-full bg-[var(--wg-neon-red)] text-black font-semibold hover:opacity-90 transition-opacity">Enter Shop</a>
+                                <a href="#" className="px-5 py-3 rounded-full border border-white/20 hover:border-white/40 transition-colors">View All</a>
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="relative aspect-[4/5] rounded-xl overflow-hidden border border-white/10 bg-black/40">
+                                <img className="absolute inset-0 w-full h-full object-cover" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759655217/openart-video_816f1252_1759343042585_efwlyy.gif" alt="Jacket product" />
+                                <span className="absolute left-2 top-2 text-xs px-2 py-0.5 rounded-full bg-[var(--wg-cyber-blue)] text-black font-semibold">New</span>
+                            </div>
+                            <div className="relative aspect-[4/5] rounded-xl overflow-hidden border border-white/10 bg-black/40">
+                                <img className="absolute inset-0 w-full h-full object-cover" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Pendant product" />
+                                <span className="absolute left-2 top-2 text-xs px-2 py-0.5 rounded-full bg-[var(--wg-blood-rose)] text-white">Hot</span>
+                            </div>
+                            <div className="relative aspect-[4/5] rounded-xl overflow-hidden border border-white/10 bg-black/40">
+                                <img className="absolute inset-0 w-full h-full object-cover" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Pendant product" alt="Graphic tee" />
+                            </div>
+                            <div className="relative aspect-[4/5] rounded-xl overflow-hidden border border-white/10 bg-black/40">
+                                <img className="absolute inset-0 w-full h-full object-cover" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Accessory" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
     </div>
