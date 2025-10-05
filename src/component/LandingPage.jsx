@@ -55,13 +55,11 @@ const LandingPage = () => {
                         <ul className="flex flex-col items-center gap-6 text-lg text-white">
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#read" onClick={() => setMobileOpen(false)}>Read</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#characters" onClick={() => setMobileOpen(false)}>Characters</a></li>
-                            <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#gallery" onClick={() => setMobileOpen(false)}>Gallery</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#nfts" onClick={() => setMobileOpen(false)}>NFTs</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#token" onClick={() => setMobileOpen(false)}>Token</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#shop" onClick={() => setMobileOpen(false)}>Shop</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#community" onClick={() => setMobileOpen(false)}>Community</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#roadmap" onClick={() => setMobileOpen(false)}>Roadmap</a></li>
-                            <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#contact" onClick={() => setMobileOpen(false)}>Contact</a></li>
                         </ul>
                     </div>
                 </div>
