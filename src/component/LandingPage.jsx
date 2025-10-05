@@ -242,10 +242,10 @@ const LandingPage = () => {
                         <div className="shop-text">
                             <span className="uppercase tracking-widest text-sm text-[var(--wg-moon-gray)]">wolf swag</span>
                             <h3 className="mt-2 text-3xl md:text-4xl font-bold">Wolf Gang Shop</h3>
-                            <p className="mt-4 text-white/80">So quality it lasts longer than a tweet. Soft fabrics, bold prints, zero corporate vibes — your merch, your culture.</p>
+                            <p className="mt-4 text-white/80">So quality it lasts longer than a tweet. Soft fabrics, bold prints, zero corporate vibes your merch, your culture.</p>
                             <div className="mt-6 flex items-center gap-3">
-                                <a href="#shop" className="px-5 py-3 rounded-full bg-[var(--wg-neon-red)] text-black font-semibold hover:opacity-90 transition-opacity">Enter Shop</a>
-                                <a href="#" className="px-5 py-3 rounded-full border border-white/20 hover:border-white/40 transition-colors">View All</a>
+                                <a href="#shop" className="px-5 py-3 rounded-full bg-[var(--wg-neon-red)] text-black font-semibold hover:opacity-90 transition-opacity">Coming Soon</a>
+                                
                             </div>
                         </div>
                         <div className="grid grid-cols-2 gap-4">
