@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* Theme colors and utility effects for Wolf Gang */
+:root {
+  --wg-night: #0b0b0e;
+  --wg-neon-red: #ff1a1a;
+  --wg-cyber-blue: #15a2ff;
+  --wg-moon-gray: #c7cbd1;
+  --wg-blood-rose: #be0029;
+}
+
+/* Simple neon glow utility */
+.neon-glow {
+  text-shadow: 0 0 8px rgba(21, 162, 255, 0.7), 0 0 16px rgba(255, 26, 26, 0.35);
+}
+
+/* Marquee ticker */
+.marquee {
+  position: relative;
+  overflow: hidden;
+  background: rgba(11, 11, 14, 0.7);
+  border-top: 1px solid rgba(199, 203, 209, 0.12);
+  border-bottom: 1px solid rgba(199, 203, 209, 0.12);
+}
+
+.marquee__inner {
+  display: inline-flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 0.75rem 0;
+  color: var(--wg-moon-gray);
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee-scroll 22s linear infinite;
+}
+
+.marquee__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid rgba(199, 203, 209, 0.18);
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  color: var(--wg-moon-gray);
+}
+
+@keyframes marquee-scroll {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+/* Continuous horizontal image strip */
+.scroll-strip {
+  overflow: hidden;
+  position: relative;
+}
+.scroll-strip__track {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.5rem;
+  will-change: transform;
+  animation: scroll-x 28s linear infinite;
+}
+.scroll-strip img {
+  height: 12rem;
+  width: auto;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+@keyframes scroll-x {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
