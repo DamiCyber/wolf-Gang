@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const LandingPage = () => {
     const [mobileOpen, setMobileOpen] = useState(false)
-    return (
+  return (
         <div className="bg-black text-white min-h-screen">
             <header className="absolute top-0 left-0 right-0 z-20">
                 <div className="mx-auto max-w-[1200px] px-6">
@@ -71,7 +71,7 @@ const LandingPage = () => {
                 <img
                     src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759655217/openart-video_816f1252_1759343042585_efwlyy.gif"
                     alt="Wolf Gang neon alley"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
+                className="absolute inset-0 w-full h-full object-cover object-center"
                     loading="eager"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/80" />
@@ -169,8 +169,78 @@ const LandingPage = () => {
                     </div>
                 </div>
             </section>
-        </div>
-    )
+            <section id="nfts" className="px-6 py-16">
+                <div className="mx-auto max-w-[1200px]">
+                    <div className="mb-8 text-center">
+                        <h2 className="text-2xl md:text-3xl font-semibold tracking-wide">Wolf Gang NFT Collection</h2>
+                        <p className="text-white/70 mt-2">1,000 on Solana • Utility • Community • Style</p>
+                    </div>
+
+                    <div className="relative rounded-2xl border border-white/10 bg-[var(--wg-night)]/90 overflow-hidden">
+                        <div className="absolute inset-0 pointer-events-none" style={{
+                            background: "radial-gradient(1200px 400px at 10% -10%, rgba(255,26,26,0.12), transparent), radial-gradient(1000px 400px at 110% 110%, rgba(21,162,255,0.10), transparent)"
+                        }} />
+
+                        <div className="relative p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div className="flex flex-col justify-center order-2 md:order-1">
+                                <div className="flex flex-wrap gap-2 mb-4">
+                                    <span className="px-3 py-1 text-xs rounded-full border border-white/15 text-[var(--wg-moon-gray)]">Supply: 1,000</span>
+                                    <span className="px-3 py-1 text-xs rounded-full border border-white/15 text-[var(--wg-moon-gray)]">Chain: Solana</span>
+                                    <span className="px-3 py-1 text-xs rounded-full border border-white/15 text-[var(--wg-moon-gray)]">Mint: TBA</span>
+                                </div>
+                                <h3 className="text-2xl md:text-3xl font-bold mb-3">
+                                    Own the Night. Join the Pack.
+                                </h3>
+                                <p className="text-white/80 leading-relaxed">
+                                    Meet Wolf Gang, a limited collection of 1,000 wolves minted on Solana. Each piece pairs neon swagger with real utility: discounts, early access, holder rooms, and community perks.
+                                </p>
+                                <ul className="mt-4 space-y-2 text-white/80">
+                                    <li className="flex items-start gap-2"><span className="mt-2 w-2 h-2 rounded-full bg-[var(--wg-neon-red)]"></span><span>Holder Utilities: access, discounts, beta, drops</span></li>
+                                    <li className="flex items-start gap-2"><span className="mt-2 w-2 h-2 rounded-full bg-[var(--wg-cyber-blue)]"></span><span>Community: gated channels, votes, events</span></li>
+                                    <li className="flex items-start gap-2"><span className="mt-2 w-2 h-2 rounded-full bg-[var(--wg-blood-rose)]"></span><span>Art Direction: dark urban fantasy, neon edge</span></li>
+                </ul>
+                                <div className="mt-6 flex items-center gap-3">
+                                    <a href="#" className="px-5 py-3 rounded-full bg-[var(--wg-neon-red)] text-black font-semibold hover:opacity-90 transition-opacity">Visit NFTs</a>
+                                    <a href="#faq" className="px-5 py-3 rounded-full border border-white/20 hover:border-white/40 transition-colors">How it works</a>
+                                </div>
+                            </div>
+                            <div className="order-1 md:order-2">
+                                <div className="relative aspect-[4/5] w-full overflow-hidden rounded-xl border border-white/10">
+                                    <img
+                                        src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp"
+                                        alt="Wolf Gang NFT preview"
+                                        className="absolute inset-0 w-full h-full object-cover"
+                                        loading="lazy"
+                                    />
+                                    <div className="absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-black/70 to-transparent">
+                                        <div className="flex items-center gap-2 text-xs">
+                                            <span className="px-2 py-0.5 rounded-full bg-[var(--wg-neon-red)] text-black font-semibold">Featured</span>
+                                            <span className="px-2 py-0.5 rounded-full border border-white/20 text-[var(--wg-moon-gray)]">1 of 1000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="faq" className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div className="rounded-xl border border-white/10 p-4 bg-black/40">
+                            <h4 className="font-semibold mb-1 text-[var(--wg-cyber-blue)]">Mint Status</h4>
+                            <p className="text-white/80 text-sm">Not live. Join the pack for updates.</p>
+                        </div>
+                        <div className="rounded-xl border border-white/10 p-4 bg-black/40">
+                            <h4 className="font-semibold mb-1 text-[var(--wg-neon-red)]">Utilities</h4>
+                            <p className="text-white/80 text-sm">Access, discounts, holder rooms, drops.</p>
+                        </div>
+                        <div className="rounded-xl border border-white/10 p-4 bg-black/40">
+                            <h4 className="font-semibold mb-1 text-[var(--wg-blood-rose)]">Community</h4>
+                            <p className="text-white/80 text-sm">Discord/Telegram — Join the Pack.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+  )
 }
 
 export default LandingPage
