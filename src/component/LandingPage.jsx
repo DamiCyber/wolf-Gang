@@ -14,8 +14,7 @@ const LandingPage = () => {
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#read">Read</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#characters">Characters</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#gallery">Gallery</a></li>
-                            <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#nfts">NFTs</a></li>
-                            <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#token">Token</a></li>
+                            <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#nfts">Token & NFTs</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#shop">Shop</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#community">Community</a></li>
                             <li><a className="transition-colors duration-200 hover:text-[var(--wg-neon-red)]" href="#roadmap">Roadmap</a></li>
@@ -185,6 +184,7 @@ const LandingPage = () => {
                                     <span className="px-3 py-1 text-xs rounded-full border border-white/15 text-[var(--wg-moon-gray)]">Supply: 1,000</span>
                                     <span className="px-3 py-1 text-xs rounded-full border border-white/15 text-[var(--wg-moon-gray)]">Chain: Solana</span>
                                     <span className="px-3 py-1 text-xs rounded-full border border-white/15 text-[var(--wg-moon-gray)]">Mint: TBA</span>
+                                    <span className="px-3 py-1 text-xs rounded-full border border-white/15 text-[var(--wg-moon-gray)]">Token: Coming soon</span>
                                 </div>
                                 <h3 className="text-2xl md:text-3xl font-bold mb-3">
                                     Own the Night. Join the Pack.
@@ -201,6 +201,7 @@ const LandingPage = () => {
                                     <a href="#" className="px-5 py-3 rounded-full bg-[var(--wg-neon-red)] text-black font-semibold hover:opacity-90 transition-opacity">Visit NFTs</a>
                                     <a href="#faq" className="px-5 py-3 rounded-full border border-white/20 hover:border-white/40 transition-colors">How it works</a>
                                 </div>
+                                <p className="mt-3 text-sm text-[var(--wg-moon-gray)]">$WGANG token is coming soon — follow updates in Community.</p>
                             </div>
                             <div className="order-1 md:order-2">
                                 <div className="relative aspect-[4/5] w-full overflow-hidden rounded-xl border border-white/10">
@@ -235,6 +236,9 @@ const LandingPage = () => {
                             <p className="text-white/80 text-sm">Discord/Telegram — Join the Pack.</p>
                         </div>
                     </div>
+                </div>
+                <div className="shop">
+
                 </div>
             </section>
     </div>
