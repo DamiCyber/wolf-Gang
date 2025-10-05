@@ -134,7 +134,7 @@ const LandingPage = () => {
                     <div className="card-cover grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         <div className="card group bg-black/50 rounded-xl border border-white/10 overflow-hidden hover:border-[var(--wg-neon-red)] transition-colors">
                             <div className="card-img">
-                                <img className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-[1.03]" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Carter" />
+                                <img className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-[1.03]" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Carter" />
                             </div>
                             <div className="card-name p-4 text-center">
                                 <h3 className="font-semibold">Carter</h3>
@@ -142,7 +142,7 @@ const LandingPage = () => {
                         </div>
                         <div className="card group bg-black/50 rounded-xl border border-white/10 overflow-hidden hover:border-[var(--wg-neon-red)] transition-colors">
                             <div className="card-img">
-                                <img className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-[1.03]" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Jaxxie" />
+                                <img className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-[1.03]" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Jaxxie" />
                             </div>
                             <div className="card-name p-4 text-center">
                                 <h3 className="font-semibold">Jaxxie</h3>
@@ -150,7 +150,7 @@ const LandingPage = () => {
                         </div>
                         <div className="card group bg-black/50 rounded-xl border border-white/10 overflow-hidden hover:border-[var(--wg-neon-red)] transition-colors">
                             <div className="card-img">
-                                <img className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-[1.03]" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Raider" />
+                                <img className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-[1.03]" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Raider" />
                             </div>
                             <div className="card-name p-4 text-center">
                                 <h3 className="font-semibold">Raider</h3>
@@ -158,7 +158,7 @@ const LandingPage = () => {
                         </div>
                         <div className="card group bg-black/50 rounded-xl border border-white/10 overflow-hidden hover:border-[var(--wg-neon-red)] transition-colors">
                             <div className="card-img">
-                                <img className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-[1.03]" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Ralph" />
+                                <img className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-[1.03]" src="https://res.cloudinary.com/dgxvuw8wd/image/upload/v1759660671/openart-video_9c22b562_1759660290498_dabvhf.webp" alt="Ralph" />
                             </div>
                             <div className="card-name p-4 text-center">
                                 <h3 className="font-semibold">Ralph</h3>
